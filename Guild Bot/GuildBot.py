@@ -10,7 +10,7 @@ import os
 #Select a prefix for us to use. Change it to ! when the other bot is removed.
 client = commands.Bot(command_prefix = ">")
 
-#For testing. Can remove laster.
+#For testing. Can remove later.
 @client.event
 async def on_ready():
     print('Connected.')
