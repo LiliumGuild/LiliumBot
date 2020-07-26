@@ -33,6 +33,6 @@ People who are also looking to do the Library should be notified. We can do this
 
 ## Event Scheduler
 
-This will probably be the the hardest to implement. It may be better to just hardcode any upcoming events. As the raid will be everyday 
+This will probably be the the hardest to implement. It may be better to just hardcode any upcoming events. As the raid will be everyday. 
 
 
