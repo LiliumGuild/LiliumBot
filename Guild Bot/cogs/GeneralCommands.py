@@ -1,8 +1,13 @@
+import config
 from discord.ext import commands
+
+##These will be general commands for users to type. Simple input -> output. Games we play, contacting an officer, etc
 
 class GeneralCommands(commands.Cog):
     def __init__(self,bot):
         self.bot = bot
+
+        self.OFFICER_CHANNEL = config.OFFICER_CHANNEL
     
     @commands.command(name="officer", help ="A command to contact Officers")
     async def contact_officer(self,ctx):
