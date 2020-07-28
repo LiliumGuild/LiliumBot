@@ -36,3 +36,23 @@ People who are also looking to do the Library should be notified. We can do this
 This will probably be the the hardest to implement. It may be better to just hardcode any upcoming events. As the raid will be everyday. 
 
 
+## .gitignore files
+
+There are 2 files that are to be kept local. secrets.py and config.py
+
+### secrets.py
+This is where we store our discord token.
+Stored as a string
+
+    DISCORD_TOKEN = ""
+    
+### config.py
+This is where we store the config for the different channels. This is currently used for storing the discord channel keys but will also store more information in future like message cooldown timer. Stored as an int
+
+    OFFICER_CHANNEL = 
+    EVENT_CHANNEL = 
+    MEDIA_CHANNEL = 
+    GRAPHIC_CHANNEL =  
+    RAID_CHANNEL = 
+    RECRUITMENT_CHANNEL = 
+ 
