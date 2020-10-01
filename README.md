@@ -10,12 +10,16 @@ A bot for the Lilium Discord.
 
 ## General Command Prompts.
 
-Simply put, The users should be able to type some command and recieve some response. Most of the basic commands are already implemented using [Cogs](https://discordpy.readthedocs.io/en/latest/ext/commands/cogs.html). Basically we can separate all the type of commands by file. So one file for General Commands, one for suggestion commands and one for Admin commands (working on that atm)
+Simply put, The users should be able to type some command and receive some response. Most of the basic commands are already implemented using [Cogs](https://discordpy.readthedocs.io/en/latest/ext/commands/cogs.html). Basically we can separate all the type of commands by file. So one file for General Commands, one for suggestion commands and one for Admin commands (working on that atm)
 This just keeps things tidy.
+
+## Running your cog 
+
+I have updated the code so all cogs in the cog folder will run automatically at runtime. No need to make any changes to GuildBot.py.
 
 ## LFG Finder
 
-This will be a 2 parter relating to the general command prompts. Users should be able to set a role for themselves (Tank, Healer, Damage) and users with a role should be able to create a group finder for Dungeons.
+This will be split into 2 parts relating to the general command prompts. Users should be able to set a role for themselves (Tank, Healer, Damage) and users with a role should be able to create a group finder for Dungeons.
 
 For example if someone with the role damage types !Library a message should pop up along the lines of:
 
