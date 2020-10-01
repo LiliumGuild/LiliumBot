@@ -1,5 +1,4 @@
 secrets.py
-__pycache__/secrets.cpython-37.pyc
-
 config.py
-__pycache__/config.cpython-37.pyc
+
+*.pyc
