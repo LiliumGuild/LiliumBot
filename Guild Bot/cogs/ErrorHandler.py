@@ -4,7 +4,6 @@ import discord
 
 # Handle all errors here. There shouldn't be a need for custom ones as we can just refer people back to the >help
 
-
 class ErrorHandler(commands.Cog):
     def __init__(self,bot):
         self.bot = bot
@@ -15,6 +14,8 @@ class ErrorHandler(commands.Cog):
             await ctx.send('Required Arguments Missing.')
         if isinstance(error,commands.CommandNotFound):
             await ctx.send('Command Not Found. Please use >help for list of commands.')
+        else:
+            print(error)
 
 def setup(bot):
     bot.add_cog(ErrorHandler(bot))
